@@ -16,11 +16,11 @@ Ext.define('Mario.controller.HerenciaSimple',{
         phone:'(503) 7877-7877'
     },
     tpl:[
-    '<p><strong style="font-weight: bold">Nombre: </strong>{name}{lastname}</p>',
-    '<p><strong style="font-weight: bold">Compañia: </strong>{company}</p>',
-    '<p><strong style="font-weight: bold">Edad: </strong>{age} años</p>',
-    '<p><strong style="font-weight: bold">Telefono: </strong>{phone}</p>',
-    '<p><strong style="font-weight: bold">Estado: </strong>{status}</p>'
+    '<p><strong>Nombre: </strong>{name}{lastname}</p>',
+    '<p><strong>Compañia: </strong>{company}</p>',
+    '<p><strong>Edad: </strong>{age} años</p>',
+    '<p><strong>Telefono: </strong>{phone}</p>',
+    '<p><strong>Estado: </strong>{status}</p>'
     ],
     
     //sobre escritura de metodos

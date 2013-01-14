@@ -11,13 +11,14 @@
 
         <script type="text/javascript" src="app.js"></script>
 
+        <!--
         <script type="text/javascript">
             
             Ext.onReady(function(){                     
                 //alert("Ext esta instalado correctamente!")
-//                Ext.create('Mario.controller.HerenciaSimple',
-//                {renderTo:'center'  //div que definimos en el html
-//                });
+                //                Ext.create('Mario.controller.HerenciaSimple',
+                //                {renderTo:'center'  //div que definimos en el html
+                //                });
                 
                 //ejemplo de herencia multimple
                 var icon=Ext.create('Mario.controller.HerenciaMultiple',{renderTo:Ext.getBody()});                
@@ -25,6 +26,16 @@
                 icon.center();
             });    
         </script>
+        -->
+        <style type="text/css">
+            #center{
+                width:300px;
+                margin:50px auto;
+            }
+            #center strong{
+                font-weight:bold !important;
+            }
+        </style>
     </head>
     <body>
 
