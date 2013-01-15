@@ -33,6 +33,6 @@ Ext.define('Mario.view.MoviesGrid',{
         me.callParent();
     },
     showImage:function(value,record){
-        return '<img src="'+value+'" style="width:100px">';
+        return '<img src="'+value+'" style="width:100px" />';
     }
 });

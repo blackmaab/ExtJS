@@ -1,8 +1,10 @@
 Ext.define('Mario.store.Movies',{
     extend:'Ext.data.Store',
     model:'Mario.model.Movie',
+    autoLoad:true,
     proxy:{
-        url:'../../data/movies.json',
+        type:'ajax',
+        url:'data/movies.json',
         reader:{
             type:'json',
             root:'data'
